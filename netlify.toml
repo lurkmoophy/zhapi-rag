@@ -11,6 +11,7 @@
   # Increase function timeout or memory limits if needed
   # timeout = 10
   # memory = 1024
+  node_bundler = "esbuild"
 
 [[redirects]]
   # Redirect API calls to the Netlify function
