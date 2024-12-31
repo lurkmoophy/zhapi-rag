@@ -3,6 +3,8 @@
   publish = "public"
   # Specify the folder where your serverless functions are located
   functions = "functions"
+  command = "npm install && npm run build"
+
 
 [functions]
   # Optional settings for serverless functions
