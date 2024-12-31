@@ -1,0 +1,17 @@
+[build]
+  # Set the directory to publish for the main site (public folder)
+  publish = "public"
+  # Specify the folder where your serverless functions are located
+  functions = "functions"
+
+[functions]
+  # Optional settings for serverless functions
+  # Increase function timeout or memory limits if needed
+  # timeout = 10
+  # memory = 1024
+
+[[redirects]]
+  # Redirect API calls to the Netlify function
+  from = "/query"
+  to = "/.netlify/functions/query"
+  status = 200

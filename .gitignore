@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+formattedResponse.json
+response.json
+# Local Netlify folder
+.netlify
